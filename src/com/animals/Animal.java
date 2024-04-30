@@ -1,21 +1,39 @@
 package com.animals;
 
+import java.util.ArrayList;
+
 public abstract class Animal {
 
-    private String animalCategory;
+    private ArrayList<String> animalCategory;
+    private String name;
+
+    private String[] animalCategoryStringArray;
+//    private String animalCategoryString;
 
     Animal()
     {
 
     }
 
-    Animal(String animalCategory){
+//    Animal(String animalCategory){
+//        this.animalCategoryString = animalCategory;
+//    }
 
-        this.animalCategory = animalCategory;
+    Animal(String name ,String[] animalCategory){
+        this.animalCategoryStringArray = animalCategory;
+        this.name = name;
     }
 
-    public String getAnimalCategory() {
-        return animalCategory;
+//    public ArrayList<String> getAnimalCategory() {
+//        return animalCategory;
+//    }
+
+    public String[] getAnimalCategoryArray(){
+
+        return animalCategoryStringArray;
+    }
+    public String getAnimalName(){
+        return name;
     }
 
 

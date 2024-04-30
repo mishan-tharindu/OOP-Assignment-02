@@ -1,10 +1,13 @@
 package com.animals;
 
-public class Elephant extends Animal implements Walker{
+import com.categroy.IWalker;
+
+public class Elephant extends Animal implements IWalker {
 
 
-    public Elephant(String animalCategory) {
-        super(animalCategory);
+    public Elephant(String name, String[] animalCategory) {
+        super(name, animalCategory);
+        System.out.println(name);
     }
 
     @Override

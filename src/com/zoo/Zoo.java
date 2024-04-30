@@ -39,4 +39,15 @@ public class Zoo {
         }
     }
 
+    public void getAnimalCategory(){
+        for (Animal ani : animals){
+            String[] animalCategory = ani.getAnimalCategoryArray();
+            for (int i = 0; i < animalCategory.length; i++){
+//                String s = animalCategory[i];
+                System.out.println("Animal Category :: "+animalCategory[i]);
+            }
+
+        }
+    }
+
 }
