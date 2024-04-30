@@ -1,6 +1,6 @@
 package com.animals;
 
-public class Elephant extends Animal{
+public class Elephant extends Animal implements Walker{
 
 
     public Elephant(String animalCategory) {
@@ -15,5 +15,10 @@ public class Elephant extends Animal{
     @Override
     public void drink() {
         System.out.println("Elephant Drink Water !!!");
+    }
+
+    @Override
+    public void walk() {
+        System.out.println("Elephant Walking");
     }
 }
