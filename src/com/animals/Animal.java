@@ -4,7 +4,13 @@ public abstract class Animal {
 
     private String animalCategory;
 
+    Animal()
+    {
+
+    }
+
     Animal(String animalCategory){
+
         this.animalCategory = animalCategory;
     }
 
@@ -12,9 +18,6 @@ public abstract class Animal {
         return animalCategory;
     }
 
-    public void setAnimalCategory(String animalCategory) {
-        this.animalCategory = animalCategory;
-    }
 
 
     public static void wake(){
