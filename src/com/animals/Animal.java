@@ -28,9 +28,9 @@ public abstract class Animal {
         System.out.println("Animals Sleep !!!");
     }
 
-    abstract void eat();
+    public abstract void eat();
 
-    abstract void drink();
+    public abstract void drink();
 
 
 }

@@ -8,12 +8,12 @@ public class Elephant extends Animal{
     }
 
     @Override
-    void eat() {
+    public void eat() {
         System.out.println("Elephant Eat Grass !!!");
     }
 
     @Override
-    void drink() {
+    public void drink() {
         System.out.println("Elephant Drink Water !!!");
     }
 }
