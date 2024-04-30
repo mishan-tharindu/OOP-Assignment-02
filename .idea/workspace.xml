@@ -4,17 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="31806489-4a67-4777-99d9-818e4d867c2b" name="Changes" comment="Add Animal Category and add animal category specific methode">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/animals/Beaver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/animals/Duck.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/categroy/IFlyer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/categroy/ISwimmer.java" afterDir="false" />
+    <list default="true" id="31806489-4a67-4777-99d9-818e4d867c2b" name="Changes" comment="Create Swimmer and Flyer Category and add animals to that">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/animals/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/animals/Animal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/animals/Beaver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/animals/Beaver.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/animals/Elephant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/animals/Elephant.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/animals/Walker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/categroy/IWalker.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/zoo/Zoo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/zoo/Zoo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -95,14 +90,34 @@
       <option name="project" value="LOCAL" />
       <updated>1714491113335</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Create Swimmer and Flyer Category and add animals to that">
+      <option name="closed" value="true" />
+      <created>1714493964731</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1714493964731</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Create Assignment 02, Create Animal Super Class" />
     <MESSAGE value="Add Elephant and add Elephant Mammals Category" />
     <MESSAGE value="Create Sleep All Animal Methode, Wake All Animal Methode, Eat All Animal Methode, Drink All Animal Methode" />
     <MESSAGE value="Add Animal Category and add animal category specific methode" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add Animal Category and add animal category specific methode" />
+    <MESSAGE value="Create Swimmer and Flyer Category and add animals to that" />
+    <option name="LAST_COMMIT_MESSAGE" value="Create Swimmer and Flyer Category and add animals to that" />
   </component>
 </project>

@@ -19,8 +19,5 @@ public class Main {
         zoo.feedAllAnimals();
         zoo.drinkAllAnimals();
 
-        zoo.getAnimalCategory();
-
-
     }
 }

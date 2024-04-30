@@ -1,5 +1,9 @@
 package com.animals;
 
+import com.categroy.IFlyer;
+import com.categroy.ISwimmer;
+import com.categroy.IWalker;
+
 import java.util.ArrayList;
 
 public abstract class Animal {

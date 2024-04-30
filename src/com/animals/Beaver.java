@@ -38,4 +38,5 @@ public class Beaver extends Animal implements IWalker, ISwimmer {
     public void swim() {
         System.out.println("Beaver swimming !!!");
     }
+
 }
