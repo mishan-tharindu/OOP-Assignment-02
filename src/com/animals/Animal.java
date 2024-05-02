@@ -6,7 +6,7 @@ import com.categroy.IWalker;
 
 import java.util.ArrayList;
 
-public abstract class Animal {
+public abstract class Animal implements IWalker, ISwimmer, IFlyer{
 
     private ArrayList<String> animalCategory;
     private String name;

@@ -4,7 +4,7 @@ import com.categroy.IFlyer;
 import com.categroy.ISwimmer;
 import com.categroy.IWalker;
 
-public class Duck extends Animal implements IWalker, ISwimmer, IFlyer {
+public class Duck extends Animal{
 
     public Duck(){}
 

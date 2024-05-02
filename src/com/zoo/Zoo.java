@@ -39,18 +39,35 @@ public class Zoo {
         }
     }
 
-
-    public void getAnimalCategory(){
+    public void walkAllAnimals(){
         for (Animal ani : animals){
-            String[] animalCategory = ani.getAnimalCategoryArray();
-            for (int i = 0; i < animalCategory.length; i++){
-//                String s = animalCategory[i];
-                System.out.println(ani.getClass().getSimpleName());
-//                ani.swim();
-                System.out.println("Animal Category :: "+animalCategory[i]);
-            }
-
+            ani.walk();
         }
     }
+
+    public void swimAllAnimals(){
+        for (Animal ani : animals){
+            ani.fly();
+        }
+    }
+    public void flyAllAnimals(){
+        for (Animal ani : animals){
+            ani.fly();
+        }
+    }
+
+
+//    public void getAnimalCategory(){
+//        for (Animal ani : animals){
+//            String[] animalCategory = ani.getAnimalCategoryArray();
+//            for (int i = 0; i < animalCategory.length; i++){
+////                String s = animalCategory[i];
+//                System.out.println(ani.getClass().getSimpleName());
+////                ani.swim();
+//                System.out.println("Animal Category :: "+animalCategory[i]);
+//            }
+//
+//        }
+//    }
 
 }

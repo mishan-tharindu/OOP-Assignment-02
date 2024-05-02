@@ -2,7 +2,7 @@ package com.animals;
 
 import com.categroy.IWalker;
 
-public class Elephant extends Animal implements IWalker{
+public class Elephant extends Animal{
 
 
     public Elephant(String name, String[] animalCategory) {
@@ -25,4 +25,13 @@ public class Elephant extends Animal implements IWalker{
         System.out.println("Elephant Walking !!!");
     }
 
+    @Override
+    public void fly() {
+
+    }
+
+    @Override
+    public void swim() {
+
+    }
 }

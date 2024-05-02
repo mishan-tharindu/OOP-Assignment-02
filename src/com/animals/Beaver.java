@@ -5,7 +5,7 @@ import com.categroy.IWalker;
 
 import java.util.ArrayList;
 
-public class Beaver extends Animal implements IWalker, ISwimmer {
+public class Beaver extends Animal{
 
 
     public Beaver()
@@ -39,4 +39,8 @@ public class Beaver extends Animal implements IWalker, ISwimmer {
         System.out.println("Beaver swimming !!!");
     }
 
+    @Override
+    public void fly() {
+
+    }
 }
