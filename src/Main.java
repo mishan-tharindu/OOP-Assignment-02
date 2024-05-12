@@ -18,9 +18,9 @@ public class Main {
         zoo.wakeAllAnimals();
         zoo.feedAllAnimals();
         zoo.drinkAllAnimals();
-        zoo.swimAllAnimals();
         zoo.walkAllAnimals();
         zoo.flyAllAnimals();
+        zoo.SwimAllAnimals();
 
     }
 }
