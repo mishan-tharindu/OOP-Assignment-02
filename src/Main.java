@@ -24,6 +24,8 @@ public class Main {
 
 //        zoo.getAnimalCategory();
         zoo.WalkAllAnimals_methode02();
+        zoo.SwimAllAnimals_methode02();
+        zoo.FlyAllAnimals_methode02();
 
 
     }

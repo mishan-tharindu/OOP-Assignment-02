@@ -87,6 +87,12 @@ public class Zoo {
    public void WalkAllAnimals_methode02()
    {
        getAnimalCategory("Walker");
+   } public void SwimAllAnimals_methode02()
+   {
+       getAnimalCategory("Swimmer");
+   } public void FlyAllAnimals_methode02()
+   {
+       getAnimalCategory("Flyer");
    }
 
     public void getAnimalCategory(String animalCategoryParameter){
@@ -94,18 +100,37 @@ public class Zoo {
             String[] animalCategory = ani.getAnimalCategoryArray();
             for (int i = 0; i < animalCategory.length; i++){
 //                String s = animalCategory[i];
-                System.out.println("Animal Simple Class :: "+ ani.getClass().getSimpleName());
+//                System.out.println("Animal Simple Class :: "+ ani.getClass().getSimpleName());
 //                ani.swim();
-                System.out.println("Animal Category :: "+animalCategory[i]);
+//                System.out.println("Animal Category :: "+animalCategory[i]);
                 if(animalCategoryParameter == "Walker")
                 {
+                    try {
                         ((IWalker) ani).walk();
+                    }catch (Exception e)
+                    {
+
+                    }
+
+
                 }else if(animalCategoryParameter == "Swimmer")
                 {
-                    ((ISwimmer) ani).swim();
+                    try {
+                        ((ISwimmer) ani).swim();
+                    }catch (Exception e)
+                    {
+
+                    }
+
                 }else if(animalCategoryParameter == "Flyer")
                 {
-                    ((IFlyer) ani).fly();
+                    try {
+                        ((IFlyer) ani).fly();
+                    }catch (Exception e)
+                    {
+
+                    }
+
                 }
             }
 
