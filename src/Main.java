@@ -18,9 +18,13 @@ public class Main {
         zoo.wakeAllAnimals();
         zoo.feedAllAnimals();
         zoo.drinkAllAnimals();
-        zoo.walkAllAnimals();
-        zoo.flyAllAnimals();
-        zoo.SwimAllAnimals();
+//        zoo.walkAllAnimals();
+//        zoo.flyAllAnimals();
+//        zoo.SwimAllAnimals();
+
+//        zoo.getAnimalCategory();
+        zoo.WalkAllAnimals_methode02();
+
 
     }
 }
